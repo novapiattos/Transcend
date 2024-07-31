@@ -250,6 +250,18 @@ footer {
     text-align: left;
     line-height: 1.5;
 }
+.hero-logo{
+	width: 20vw;
+}
+
+/*custom css*/
+.logo-full{
+	height:3em;
+}
+.logo-only{
+	height:2em;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -284,16 +296,9 @@ footer {
     .about .grid-item {
         margin: 1rem 0;
     }
+	.hero-logo{
+	width: 50vw;
+}
+	
 }
 
-/*custom css*/
-.logo-full{
-	height:3em;
-}
-.logo-only{
-	height:2em;
-}
-.hero-logo{
-	width: 400px;
-}
-}
