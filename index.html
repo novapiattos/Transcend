@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcend Virtuals</title>
+			<link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
+			<link href="lib/style.css" rel="stylesheet">
+		<link rel="icon" href="lib/images/transcend%20logo%20only.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="lib/images/logo.png" alt="Logo with Name" class="logo-full">
+                <img src="lib/images/transcend%20logo%20only.png" alt="Logo Only" class="logo-only">
+            </div>
+            <nav>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="popup-nav" id="popup-nav">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <img src = "lib/images/logo.png" class = "hero-logo">
+                <p>Your VA partner from beginning to endless possibilities!</p>
+                <a href="#features" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+				<section id="about" class="about">
+					<div class="container">
+							<div class="grid">
+									<div class="grid-item">
+											<img src="lib/images/image-1.png" alt="Placeholder Image" class="about-image">
+									</div>
+									<div class="grid-item">
+											<h2>About Us</h2>
+											<p>
+											<b>Transcend</b> your premier partner in virtual assistance solutions, specializing in providing a wide array of virtual assistance services fit to meet the diverse needs of businesses and clients. 
+											<br><br>
+											Whether you require administrative support, customer service solutions, digital marketing expertise, or specialized technical assistance, our team of dedicated virtual assistants is here to streamline your operations and boost your productivity. From scheduling to planning, research, graphic designs, web development, socmed management, advertisements, from beginning to end. We got you!
+											<br><br>
+											Our team is committed to deliver excellent and cost-effective  service combined with cutting-edge technology to exceed your expectations. Our goal is to empower our clients to focus on their core objectives while we handle the day-to-day tasks with precision and professionalism.
+											<br><br>
+											Discover how <b>Transcend</b> Team can help you transform your business today with limitless opportunities.
+											<br><br>
+											We are limitless.
+										</p>
+									</div>
+							</div>
+					</div>
+        </section>
+			
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="services-list">
+                    <div class="services-item">
+											<img src="lib/images/headphones.svg">
+                        <h3>Administrative Support</h3>
+                        <p>Email Management</p>
+                        <p>Calendar Scheduling</p>
+                        <p>Data Entry</p>
+                        <p>Documentary Preparation</p>
+                        <p>Travel Arrangements</p>
+<!--                        <p>one</p>-->
+                    </div>
+                    <div class="services-item">
+											<img src="lib/images/heart.svg">
+                        <h3>Social Media Management</h3>
+                        <p>Content Creation</p>
+                        <p>Scheduling Posts</p>
+                        <p>Engagement and Community Management</p>
+                        <p>Analytics and Reporting</p>
+                    </div>
+                    <div class="services-item">
+											<img src="lib/images/camera.svg">
+                        <h3>Content Creation</h3>
+                        <p>Blog writing</p>
+                        <p>Copywriting</p>
+                        <p>Graphic Design</p>
+                        <p>Video Editing</p>
+                    </div>
+										<div class="services-item">
+											<img src="lib/images/shopping-bag.svg">
+                        <h3>Market Support</h3>
+                        <p>Lead Generation</p>
+                        <p>CRM Management</p>
+                        <p>Email Marketing Campaigns</p>
+                        <p>Market Research</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="send_email.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Transcend Virtuals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="lib/script.js"></script>
+</body>
+</html>
